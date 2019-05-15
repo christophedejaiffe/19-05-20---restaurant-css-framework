@@ -1,1 +1,1 @@
-.navbar{color:white}.col-md-4 .col-md-3 .col-md-5{border:1px solid black}
+*{margin:0;padding:0}.navbar{color:white}body{background-image:url(../../assets/img/fond.jpg);background-size:cover}.jumbotron{background-color:rgba(128,128,128,0.5);color:white;text-align:center;border:8px solid white;height:90%;padding-top:10%}.card{border:8px solid white;background-color:rgba(128,128,128,0);color:white}.card-body{Display:flex;padding-bottom:20%}
