@@ -8,9 +8,8 @@
 }
 
 body {
-  background-image: url(../../assets/img/fond.jpg);
+  background: url(../../assets/img/fond.jpg) no-repeat center fixed;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .jumbotron {
@@ -54,4 +53,20 @@ body {
   background-image: url(../img/plats08.jpg);
   background-size: cover;
   text-align: center;
+}
+
+.entree {
+  color: white;
+}
+
+.right {
+  float: right;
+}
+
+.list-group-item {
+  background-color: rgba(128, 128, 128, 0.2);
+  width: 80%;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  margin: auto;
 }
