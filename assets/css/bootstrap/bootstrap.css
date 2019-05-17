@@ -2429,8 +2429,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #2cb311;
+  border-color: #ffffff;
 }
 
 .btn-primary:hover {
@@ -4127,7 +4127,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007bff;
+  background-color: #be6e12;
 }
 
 .nav-fill .nav-item {
