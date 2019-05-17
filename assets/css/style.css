@@ -86,3 +86,19 @@ body {
 .chiffre {
   text-align: center;
 }
+
+.tittle h1 {
+  color: white !important;
+  text-align: center;
+}
+
+.align-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+mark {
+  color: white;
+}
