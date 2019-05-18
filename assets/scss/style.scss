@@ -31,7 +31,7 @@ body
 {
 
     border:1px solid white;
-    border-radius: 5px;
+    margin:auto;
     background-color: rgba($color: gray, $alpha: 0);
     color: white;
 }
@@ -69,6 +69,7 @@ body
     background-image: url(../img/plats08.jpg);
     background-size: cover;
     text-align: center;
+
 }
 
 .entree
@@ -112,6 +113,7 @@ body
 {
     color:white !important;
     text-align:center;
+    text-shadow: 4px 4px 1px black;
 }
 .align-center
 {
@@ -122,4 +124,10 @@ body
 mark
 {
     color:white;
+}
+
+@media all and (max-width: 960px) {
+    .tab-pane{
+        flex-direction: column;
+    }
 }

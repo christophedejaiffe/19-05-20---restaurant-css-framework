@@ -2429,13 +2429,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #2cb311;
+  background-color: #1a6b17;
   border-color: #ffffff;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
+  background-color: #d99400;
   border-color: #0062cc;
 }
 

@@ -23,7 +23,7 @@ body {
 
 .card {
   border: 1px solid white;
-  border-radius: 5px;
+  margin: auto;
   background-color: rgba(128, 128, 128, 0);
   color: white;
 }
@@ -90,6 +90,7 @@ body {
 .tittle h1 {
   color: white !important;
   text-align: center;
+  text-shadow: 4px 4px 1px black;
 }
 
 .align-center {
@@ -101,4 +102,13 @@ body {
 
 mark {
   color: white;
+}
+
+@media all and (max-width: 960px) {
+  .tab-pane {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
