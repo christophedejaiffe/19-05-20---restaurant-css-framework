@@ -1,133 +1,169 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
 
-.navbar
-{
+.navbar {
     color: white;
 }
 
-body
-{
-    background: url(../../assets/img/fond.jpg) no-repeat center fixed;
+body {
+    background: url("../../assets/img/fond.jpg") no-repeat center fixed;
     background-size: cover;
-    
+
 }
 
-.jumbotron
-{
+.jumbotron {
     background-color: rgba($color: gray, $alpha: 0.5);
-    color:white;
+    color: white;
     text-align: center;
-    border:1px solid white;
+    border: 1px solid white;
     height: 90%;
-    padding-top: 5%;  
+    padding-top: 5%;
 
 }
 
-.card 
-{
+.card {
 
-    border:1px solid white;
-    margin:auto;
+    border: 1px solid white;
+    margin: auto;
     background-color: rgba($color: gray, $alpha: 0);
     color: white;
 }
 
-.nopadding 
-{
+.nopadding {
     padding: 0 !important;
     margin: 0 !important;
 }
 
-.noppading-top
-{
+.noppading-top {
     padding-top: 0;
     margin-top: 0;
 }
 
-.jumbotron.deux
-{
-    background-image: url(../img/plats06.jpg) !important;
+.jumbotron.deux {
+    background-image: url("../img/plats06.jpg") !important;
     background-size: cover;
     text-shadow: 3px 3px 4px black;
 
-    
 }
 
-.card.plats
-{
-    background-image: url(../img/plats01.jpg);
+.card.plats {
+    background-image: url("../img/plats01.jpg");
     background-size: cover;
     text-align: center;
 }
 
-.card.deco
-{
-    background-image: url(../img/plats08.jpg);
+.card.deco {
+    background-image: url("../img/plats08.jpg");
     background-size: cover;
     text-align: center;
 
 }
 
-.entree
-{
+.entree {
     color: white;
 }
 
-.right
-{
+.right {
     float: right;
 }
 
-
-
-.list-group-item
-{
+.list-group-item {
     background-color: rgba($color: gray, $alpha: 0.2);
     width: 80%;
     align-content: flex-start;
     margin: auto;
-    
-    
+
 }
-.tof
-{
+.tof {
     text-align: center;
     padding: 5%;
-    
-    img{
+
+    img {
         margin: 1%;
-        border:1px solid white;
+        border: 1px solid white;
         border-radius: 5px;
     }
 }
-.chiffre
-{
+.chiffre {
     text-align: center;
 }
 
-.tittle h1 
-{
-    color:white !important;
-    text-align:center;
+.tittle h1 {
+    color: white !important;
+    text-align: center;
     text-shadow: 4px 4px 1px black;
 }
-.align-center
-{
-    display:flex;
-    margin:auto;
-    
+.align-center {
+    display: flex;
+    margin: auto;
+
 }
-mark
-{
-    color:white;
+mark {
+    color: white;
 }
 
-@media all and (max-width: 960px) {
-    .tab-pane{
+.plts {
+    text-align: center;
+    text-shadow: 4px 4px 3px black;
+}
+
+strong {
+    text-shadow: 4px 4px 3px black;
+}
+
+/* Restaurants*/
+
+.map {
+    padding-left:5%;
+}
+
+@media all and (max-width: 768px) {
+    .tab-pane {
         flex-direction: column;
+    }
+    .nam {
+        display:none;
+    }
+}
+
+.page {
+    border:1px solid white;
+    border-radius:10px;
+    padding:5%;
+    padding-right: 0;
+    background-color: rgba($color: rgb(146, 58, 58), $alpha: 0.3);
+    display: flex;
+}
+
+.nam {
+    width:40%;
+    
+    background-image: url(../img/resto1.jpg);
+    background-size: cover;
+}
+
+.bxl {
+    width:40%;
+    
+    background-image: url(../img/resto2.jpg);
+    background-size: cover;
+}
+
+.charl {
+    width:40%;
+    
+    background-image: url(../img/resto3.jpg);
+    background-size: cover;
+}
+@media all and (max-width: 480px) {
+    .page {
+        display:flex;
+        flex-direction: column;
+    }
+    .map {
+        padding: 0;
+        margin: auto;
     }
 }

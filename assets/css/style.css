@@ -8,7 +8,7 @@
 }
 
 body {
-  background: url(../../assets/img/fond.jpg) no-repeat center fixed;
+  background: url("../../assets/img/fond.jpg") no-repeat center fixed;
   background-size: cover;
 }
 
@@ -39,19 +39,19 @@ body {
 }
 
 .jumbotron.deux {
-  background-image: url(../img/plats06.jpg) !important;
+  background-image: url("../img/plats06.jpg") !important;
   background-size: cover;
   text-shadow: 3px 3px 4px black;
 }
 
 .card.plats {
-  background-image: url(../img/plats01.jpg);
+  background-image: url("../img/plats01.jpg");
   background-size: cover;
   text-align: center;
 }
 
 .card.deco {
-  background-image: url(../img/plats08.jpg);
+  background-image: url("../img/plats08.jpg");
   background-size: cover;
   text-align: center;
 }
@@ -104,11 +104,73 @@ mark {
   color: white;
 }
 
-@media all and (max-width: 960px) {
+.plts {
+  text-align: center;
+  text-shadow: 4px 4px 3px black;
+}
+
+strong {
+  text-shadow: 4px 4px 3px black;
+}
+
+/* Restaurants*/
+.map {
+  padding-left: 5%;
+}
+
+@media all and (max-width: 768px) {
   .tab-pane {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .nam {
+    display: none;
+  }
+}
+
+.page {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5%;
+  padding-right: 0;
+  background-color: rgba(146, 58, 58, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nam {
+  width: 40%;
+  background-image: url(../img/resto1.jpg);
+  background-size: cover;
+}
+
+.bxl {
+  width: 40%;
+  background-image: url(../img/resto2.jpg);
+  background-size: cover;
+}
+
+.charl {
+  width: 40%;
+  background-image: url(../img/resto3.jpg);
+  background-size: cover;
+}
+
+@media all and (max-width: 480px) {
+  .page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .map {
+    padding: 0;
+    margin: auto;
   }
 }
