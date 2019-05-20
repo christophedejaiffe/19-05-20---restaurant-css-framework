@@ -1,108 +1,114 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="assets/css/bootstrap/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <!-- JS FILES -->
-    
+
     <link rel="stylesheet" href="assets/css/style.css">
     <title>El_Gringo</title>
 </head>
+
 <body>
     <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container">
-                    <a class="navbar-brand">El Gringo</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand">El Gringo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Carte</a>
+                            <a class="nav-link" href="Carte.html">Carte</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Photos</a>
+                            <a class="nav-link" href="Photos.html">Photos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Restaurants</a>
+                            <a class="nav-link" href="Resto.html">Restaurants</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link active" href="Contact.html">Contact</a>
                         </li>
                     </ul>
-                    <button class="btn btn-outline-primary my-2 my-sm-0 mr-5" type="submit"><i class="fab fa-facebook-square mr-5" ></i>Like
+                    <button class="btn btn-outline-primary my-2 my-sm-0 mr-5" type="submit"><i
+                            class="fab fa-facebook-square mr-5"></i>Like
 
                     </button>
                     </form>
                 </div>
-            </div>  
-            </nav>
-        
+            </div>
+        </nav>
+
     </header>
 
-<main class="py-4">
-    <section class="container">
-        <div class="row">
-            <div class="col-md-3">
-                    <div class="card" style="width: 18rem;">
-                            <img src="assets/img/logo.png" class="card-img-top mt-4" alt="logo">
-                            <div class="card-body"></div>
+    <main class="py-4">
+        <section class="container">
+            <form class="bg" method="post" action="#">
+                <div id="nom-mail">
+                    <div class="name">
+
+                        <p>
+                            <label for="nom"></label>
+                            <input class="form-control bg-transparent" type="text" name="nom" id="nom" placeholder="Nom" />
+                        </p>
+                        <p>
+                            <label for="prenom"></label>
+                            <input class="form-control bg-transparent" type="text" name="Prenom" id="Prenom" placeholder="Prenom" />
+                        </p>
+
                     </div>
-            </div>
-            <div class="col-md-3">
-                    <div class="card plats" style="width: 18rem;">
-                            
-                            <div class="card-body">
-                              
-                              <a href="#" class="btn btn-primary" style="margin-top: 60%">Photos</a>
-                            </div>
-                          </div>
-            </div>  
-            <div class="col-md-6">
-                <div class="jumbotron">
-                    <h1 class="display-4">Ola Amigos !!</h1>
-                    <p class="lead">Bienvenue dans notre Restaurant</p>
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Informations</a>
+                    <div class="mail pl-4">
+                        <p>
+                            <label for="mail"></label><input class="form-control bg-transparent" type="email" name="mail" id="mail" placeholder="Email" />
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="row ">
-                <div class="col-md-6 noppading-right">
-                        <div class="jumbotron deux" style="border-right: 0">
-                            <h2 class="display-4">Menu de la semaine</h2>
-                            <p class="lead">Venez voir </p>
-                            <a class="btn btn-primary btn-lg" href="#" role="button">Ici</a>
+                <div class="sujet">
+                    <div class="form-row align-items-center mt-4 mb-3">
+                        <div class="col-auto">
+                            <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                            <select class="custom-select mr-sm-2 bg-transparent text-white" id="inlineFormCustomSelect">
+                                <option class="bg-dark" selected>Sujet de votre demande</option>
+                                <option class="bg-dark" value="1">Réservation</option>
+                                <option class="bg-dark" value="2">Commentaires</option>
+                                <option class="bg-dark" value="3">Autres</option>
+                            </select>
                         </div>
-                    </div> 
-                <div class="col-md-3 nopadding">
-                        <div class="card deco" style="width: 18rem;">
-                               
-                                <div class="card-body"></div>
-                        </div>
+
+                    </div>
+                    <div class="message">
+
+                        <p>
+                            <label for="message"></label><textarea class="form-control bg-transparent text-white" name="message" id="message"
+                                rows="10" cols="50">Message
+                            </textarea>
+                        </p>
+
+                        <p>
+                            <input class="form-control bg-transparent text-white" type="submit" value="envoyer" />
+                        </p>
+                    </div>
+
                 </div>
-                <div class="col-md-3 nopadding">
-                        <div class="card" style="width: 18rem;">
-                                <img src="assets/img/plats07.jpg" class="card-img" alt="plats">
-                                <div class="card-body pb-5">
-                                  
-                                  <a href="#" class="btn btn-primary">Weekend Saint Valentin</a>
-                                </div>
-                              </div>
-                </div>  
-                
-        </div>
-    </section>
-</main>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            </form>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -21,6 +21,14 @@ body {
     height: 90%;
     padding-top: 5%;
 
+    &.deux {
+  
+        background-image: url("../img/plats06.jpg") !important;
+        background-size: cover;
+        text-shadow: 3px 3px 4px black;
+    
+    }
+
 }
 
 .card {
@@ -31,22 +39,16 @@ body {
     color: white;
 }
 
-.nopadding {
-    padding: 0 !important;
-    margin: 0 !important;
+.card-body {
+    text-align: center;
 }
 
-.noppading-top {
-    padding-top: 0;
-    margin-top: 0;
-}
-
-.jumbotron.deux {
-    background-image: url("../img/plats06.jpg") !important;
+.card.plats02 {
+    background-image: url("../img/plats07.jpg");
     background-size: cover;
-    text-shadow: 3px 3px 4px black;
-
+    text-align: center;
 }
+
 
 .card.plats {
     background-image: url("../img/plats01.jpg");
@@ -113,6 +115,10 @@ strong {
     text-shadow: 4px 4px 3px black;
 }
 
+.row.linetwo {
+    height: 238px;
+}
+
 /* Restaurants*/
 
 .map {
@@ -120,6 +126,13 @@ strong {
 }
 
 @media all and (max-width: 768px) {
+
+ 
+    .display-4 {
+        
+            font-size: 2em;
+        
+    }
     .tab-pane {
         flex-direction: column;
     }
@@ -158,6 +171,19 @@ strong {
     background-size: cover;
 }
 @media all and (max-width: 480px) {
+
+    .card.card-body-a-btn {
+        margin-top: 50%;
+    }
+
+    .disp {
+        display:none;
+    }
+
+    .card.deco {
+        display: none;
+    }
+
     .page {
         display:flex;
         flex-direction: column;
@@ -166,4 +192,28 @@ strong {
         padding: 0;
         margin: auto;
     }
+}
+/*Contact*/
+
+#nom-mail
+  {
+    display: flex;
+  }
+
+#textarea
+  {
+    width: 600px;
+    height: 150px;
+  }
+a
+  {
+    color: white;
+  }
+a:visited
+    {
+      color: rgb(173, 170, 170);
+    }
+.form-control::placeholder {
+    color:white;
+
 }
