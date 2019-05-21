@@ -18,7 +18,9 @@ __Objetctive :__ Realizes the showcase site of a restaurant franchise.
 5. Contact : a page with a contact form, with firstname, lastname, email, subject ( dropdown list with choice ) and a send button.
 
 I have make the choice a Mexican restaurant, here is the result of my work:
+
 For example the Photos page code :
+
 <!DOCTYPE html>
 <html lang="fr">
 
