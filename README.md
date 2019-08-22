@@ -1,4 +1,4 @@
-# restaurant-css-framework
+# El Gringo restaurant-css-framework
 ## Project : A new web site With Bootstrap
 
 __Objetctive :__ Realizes the showcase site of a restaurant franchise. 
@@ -22,11 +22,6 @@ I have make the choice a Mexican restaurant, here is the result of my work:
 <details>
 <summary>The HTML</summary>
     
-```markdown
-
-
-
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -133,7 +128,7 @@ I have make the choice a Mexican restaurant, here is the result of my work:
 
 <details>
 <summary>The SCSS</summary>
-```markdown
+
 * {
 	    margin: 0;
 	    padding: 0;
