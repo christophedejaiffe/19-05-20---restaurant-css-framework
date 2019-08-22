@@ -21,6 +21,8 @@ I have make the choice a Mexican restaurant, here is the result of my work:
 
 <details>
 <summary>The HTML</summary>
+
+```markdown
     
 <!DOCTYPE html>
 <html lang="fr">
@@ -125,6 +127,272 @@ I have make the choice a Mexican restaurant, here is the result of my work:
 
 ```
 </details>
+
+<details>
+<summary>The SCSS</summary>
+```markdown
+* {
+	    margin: 0;
+	    padding: 0;
+	}
+	
+
+	.navbar {
+	    color: white;
+	}
+	
+
+	body {
+	    background: url("../../assets/img/fond.jpg") no-repeat center fixed;
+	    background-size: cover;
+	
+
+	}
+	
+
+	.jumbotron {
+	    background-color: rgba($color: gray, $alpha: 0.5);
+	    color: white;
+	    text-align: center;
+	    border: 1px solid white;
+	    height: 90%;
+	    padding-top: 5%;
+	
+
+	    &.deux {
+	  
+	        background-image: url("../img/plats06.jpg") !important;
+	        background-size: cover;
+	        text-shadow: 3px 3px 4px black;
+	    
+	    }
+	
+
+	}
+	
+
+	.card {
+	
+
+	    border: 1px solid white;
+	    margin: auto;
+	    background-color: rgba($color: gray, $alpha: 0);
+	    color: white;
+	}
+	
+
+	.card-body {
+	    text-align: center;
+	}
+	
+
+	.card.plats02 {
+	    background-image: url("../img/plats07.jpg");
+	    background-size: cover;
+	    text-align: center;
+	}
+	
+
+	
+
+	.card.plats {
+	    background-image: url("../img/plats01.jpg");
+	    background-size: cover;
+	    text-align: center;
+	}
+	
+
+	.card.deco {
+	    background-image: url("../img/plats08.jpg");
+	    background-size: cover;
+	    text-align: center;
+	
+
+	}
+	
+
+	.entree {
+	    color: white;
+	}
+	
+
+	.right {
+	    float: right;
+	}
+	
+
+	.list-group-item {
+	    background-color: rgba($color: gray, $alpha: 0.2);
+	    width: 80%;
+	    align-content: flex-start;
+	    margin: auto;
+	
+
+	}
+	.tof {
+	    text-align: center;
+	    padding: 5%;
+	
+
+	    img {
+	        margin: 1%;
+	        border: 1px solid white;
+	        border-radius: 5px;
+	    }
+	}
+	.chiffre {
+	    text-align: center;
+	}
+	
+
+	.tittle h1 {
+	    color: white !important;
+	    text-align: center;
+	    text-shadow: 4px 4px 1px black;
+	}
+	.align-center {
+	    display: flex;
+	    margin: auto;
+	
+
+	}
+	mark {
+	    color: white;
+	}
+	
+
+	.plts {
+	    text-align: center;
+	    text-shadow: 4px 4px 3px black;
+	}
+	
+
+	strong {
+	    text-shadow: 4px 4px 3px black;
+	}
+	
+
+	.row.linetwo {
+	    height: 238px;
+	}
+	
+
+	/* Restaurants*/
+	
+
+	.map {
+	    padding-left:5%;
+	}
+	
+
+	@media all and (max-width: 768px) {
+	
+
+	 
+	    .display-4 {
+	        
+	            font-size: 2em;
+	        
+	    }
+	    .tab-pane {
+	        flex-direction: column;
+	    }
+	    .nam {
+	        display:none;
+	    }
+	}
+	
+
+	.page {
+	    border:1px solid white;
+	    border-radius:10px;
+	    padding:5%;
+	    padding-right: 0;
+	    background-color: rgba($color: rgb(146, 58, 58), $alpha: 0.3);
+	    display: flex;
+	}
+	
+
+	.nam {
+	    width:40%;
+	    
+	    background-image: url(../img/resto1.jpg);
+	    background-size: cover;
+	}
+	
+
+	.bxl {
+	    width:40%;
+	    
+	    background-image: url(../img/resto2.jpg);
+	    background-size: cover;
+	}
+	
+
+	.charl {
+	    width:40%;
+	    
+	    background-image: url(../img/resto3.jpg);
+	    background-size: cover;
+	}
+	@media all and (max-width: 480px) {
+	
+
+	    .card.card-body-a-btn {
+	        margin-top: 50%;
+	    }
+	
+
+	    .disp {
+	        display:none;
+	    }
+	
+
+	    .card.deco {
+	        display: none;
+	    }
+	
+
+	    .page {
+	        display:flex;
+	        flex-direction: column;
+	    }
+	    .map {
+	        padding: 0;
+	        margin: auto;
+	    }
+	}
+	/*Contact*/
+	
+
+	#nom-mail
+	  {
+	    display: flex;
+	  }
+	
+
+	#textarea
+	  {
+	    width: 600px;
+	    height: 150px;
+	  }
+	a
+	  {
+	    color: white;
+	  }
+	a:visited
+	    {
+	      color: rgb(173, 170, 170);
+	    }
+	.form-control::placeholder {
+	    color:white;
+	
+
+	}
+
+```
+</details>
+
 
 
 
