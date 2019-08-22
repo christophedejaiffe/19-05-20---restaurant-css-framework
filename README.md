@@ -20,7 +20,7 @@ __Objetctive :__ Realizes the showcase site of a restaurant franchise.
 I have make the choice a Mexican restaurant, here is the result of my work:
 
 <details>
-<summary>For example the Photos page code :</summary>
+<summary>The HTML</summary>
     
 ```markdown
 
@@ -131,6 +131,7 @@ I have make the choice a Mexican restaurant, here is the result of my work:
 ```
 </details>
 
+For example the Photos page code :
 
 [![Image](https://i.goopics.net/Aq14A.jpg)](https://goopics.net/i/Aq14A)
 
