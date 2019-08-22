@@ -129,7 +129,9 @@ I have make the choice a Mexican restaurant, here is the result of my work:
 </details>
 
 <details>
+	
 <summary>The SCSS</summary>
+
 ```markdown
 * {
 	    margin: 0;
